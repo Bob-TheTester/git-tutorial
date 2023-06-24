@@ -6,4 +6,5 @@ protected:
 	int height;
 public: 
 	Rectangle(int w, int h);
+	int getArea();
 }
