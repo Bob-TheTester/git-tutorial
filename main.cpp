@@ -1,6 +1,9 @@
-#include <sdtio.h>
+#include <iostream>
+
+using namespace std;
+
 int main(int)
 {
-	printf("Hello, world\n");
-	printf("Hey, is it C or C++ ?\n");
+	cout << "Hello, world" << endl;
+	cout << "Hey, is it C or C++ ?" << endl;
 }
