@@ -4,9 +4,11 @@
 
 class Circle {
 protected: 
-        float radius;
+    float radius;
 public: 
+    Circle();
     Circle(float r);
+    float getRadius();
     void print();
     float getArea();       
 };
